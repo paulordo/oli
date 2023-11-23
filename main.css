@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 24px;
+}
+
+.title {
+    font-size: 48px;
+    color: #4B0082;
+}
+
+.list-item {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.list-item:hover {
+    cursor: pointer;
+}
+
+input {
+    height: 48px;
+    background-color: transparent;
+    color: white;
+    border-color: #4B0082;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 2px; /* Corrigido aqui */
+}
+
+.addnewcat {
+    height: 53px;
+    padding: 10px;
+    background-color: #4b0083;
+    font-size: 18px;
+    border-width: 0px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pedido {
+    font-size: 15px; 
+    color: white;
+}
